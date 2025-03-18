@@ -1,0 +1,143 @@
+body {
+  background-color: #BEE7E8;
+  color: #176087;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 52px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 100px;
+  margin-bottom: 0px;
+}
+
+
+p {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
+hr {
+  background-color: #176087;
+  height: 2px;
+  border: none;
+}
+
+.skills-image{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 15px 0;
+}
+.skills-image img:hover{
+  
+    transform: scale(1.1);
+  
+}
+.skills-image img{
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid #176087;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.skills, .hobbies, .interest {
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #A0D2DB;
+  border-style: double;
+  border-left: 2px solid #176087;
+  padding: 15px;
+  border-radius: 10px; 
+}
+blockquote {
+  font-size: 16px;
+  line-height: 1.8;
+  padding: 10px;
+  
+  color: #176087;
+  background-color: #BEE7E8;
+}
+
+.buttons {
+  text-align: center;
+  border: 2px solid #176087;
+  background-color: #A0D2DB;
+  padding: 10px;
+  display: inline-block;
+  margin: 10px auto;
+}
+
+
+.navbar-top {
+  background-color: #176087;
+  padding: 20px;
+  text-align: center;
+  margin-top: -8px;
+}
+
+.navbar-top ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-top ul li {
+  margin: 0 20px; 
+}
+
+.navbar-top li a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  color: #A0D2DB;
+  padding: 10px 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-top a:hover {
+  color: #BEE7E8;
+}
+.navbar-body {
+  background-color: #176087;
+  padding: 20px;
+  text-align: center;
+  border: 3px solid #A0D2DB; 
+  border-radius: 10px; 
+  margin: 20px auto; 
+  width: 80%; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.navbar-body ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; 
+  gap: 50px; 
+}
+
+.navbar-body li {
+  display: inline;
+}
+
+.navbar-body li a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  color: #A0D2DB;
+  padding: 10px 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-body a:hover {
+  color: #BEE7E8;
+}

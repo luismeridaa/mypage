@@ -1,0 +1,121 @@
+body {
+    background-color:  #BEE7E8;
+    color: #176087;
+    font-family: 'Montserrat', sans-serif;
+  }
+  h1{ 
+    background-color: #BEE7E8;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 0px ;
+    clear: right;
+  }
+  
+   .header{
+     margin-left: 550px;
+    margin-right: 550px;
+    background-color: #BEE7E8;
+    border-left: 2px #176087;
+    } 
+   hr{
+
+    background-color: #176087;
+    height: 2px;
+    border: none;
+   }
+  
+  p.skills{
+    text-align: center;
+    margin-left: 5000px;
+    margin-right: 5000px;
+  
+  }
+  
+  .skills{
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #A0D2DB;
+    border-style: double;
+    border-left: 2px solid #176087;
+  }
+  
+  .seminars{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #A0D2DB;
+    border-style: solid;
+    
+    padding: 20px;
+  }
+  .buttons{
+    text-align: center;
+    border: #176087;
+    border-style: double;
+    background-color: #A0D2DB;
+  }
+  .navbar-top {
+    background-color: #176087;
+    padding: 20px;
+    text-align: center;
+    margin-top: -8px;
+  }
+  
+  .navbar-top ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-top ul li {
+    margin: 0 20px; 
+  }
+  
+  .navbar-top li a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: #A0D2DB;
+    padding: 10px 15px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-top a:hover {
+    color: #BEE7E8;
+  }
+  .skills-image{
+    display: flex;
+    justify-content: right;
+    
+    
+
+  }
+  .skills-image img:hover{
+  
+    transform: scale(1.1);
+    
+  }
+  .skills-image img{
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #176087;
+    transition: transform 0.3s ease-in-out;
+    float: right;
+  }
+  .header h1{
+    text-align: center;
+    justify-content: space-between ;
+}
+
+.header img {
+  margin-left: 1075px;
+  width: 200px;
+  
+  border-radius: 10px;
+  border: 2px solid #176087;
+  transition: transform 0.3s ease-in-out;
+}

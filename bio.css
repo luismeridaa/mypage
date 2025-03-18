@@ -1,0 +1,154 @@
+
+body {
+  background-color: #BEE7E8;
+  color: #176087;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-top {
+  background-color: #176087;
+  padding: 20px;
+  text-align: center;
+}
+
+.navbar-top ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-top ul li {
+  margin: 0 20px; 
+}
+
+.navbar-top li a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  color: #A0D2DB;
+  padding: 10px 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-top a:hover {
+  color: #BEE7E8;
+}
+
+.navbar-body {
+  background-color: #176087;
+  padding: 20px;
+  text-align: center;
+  border: 3px solid #A0D2DB; 
+  border-radius: 10px; 
+  margin: 20px auto; 
+  width: 80%; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.navbar-body ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; 
+}
+
+.navbar-body ul li {
+  margin: 0 20px;
+}
+
+.navbar-body li a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  color: #A0D2DB;
+  padding: 10px 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-body a:hover {
+  color: #BEE7E8;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #176087;
+}
+
+
+section {
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #A0D2DB;
+  border-style: double;
+  border-left: 2px solid #176087;
+  padding: 15px;
+  border-radius: 10px; 
+}
+
+
+h2 {
+  font-size: 28px;
+  color: #176087;
+  border-bottom: 2px solid #176087;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+
+blockquote {
+  font-size: 16px;
+  line-height: 1.8;
+  padding: 10px;
+  
+  color: #176087;
+  background-color: #BEE7E8;
+}
+
+
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.image-gallery img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid #176087;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-gallery img:hover {
+  transform: scale(1.1);
+}
+
+
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.buttons a {
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #176087;
+  color: #A0D2DB;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out;
+}
+
+.buttons a:hover {
+  background-color: #BEE7E8;
+  color: #176087;
+}
